@@ -1,0 +1,98 @@
+[
+    {
+        "role": "user",
+        "content": "hello"
+    },
+    {
+        "role": "assistant",
+        "content": "Hello Arnav! It's nice to meet you. Is there something I can help you with?"
+    },
+    {
+        "role": "user",
+        "content": "nova ?"
+    },
+    {
+        "role": "assistant",
+        "content": "You're referring to me! I'm NOVA, your advanced AI chatbot, ready to assist you with any questions or topics you'd like to discuss."
+    },
+    {
+        "role": "user",
+        "content": "do you know the full form of your name"
+    },
+    {
+        "role": "assistant",
+        "content": "My name NOVA stands for Navigational Omni-purpose Virtual Assistant."
+    },
+    {
+        "role": "user",
+        "content": "hello Nova"
+    },
+    {
+        "role": "assistant",
+        "content": "Hello again, Arnav!"
+    },
+    {
+        "role": "user",
+        "content": "now tell me your name full form"
+    },
+    {
+        "role": "assistant",
+        "content": "My name NOVA stands for Notable Organizer and Versatile Assistant."
+    },
+    {
+        "role": "user",
+        "content": "you remember our talks"
+    },
+    {
+        "role": "assistant",
+        "content": "I have the ability to retain context and remember our conversation history, so I can pick up where we left off and respond accordingly."
+    },
+    {
+        "role": "user",
+        "content": "do you am feeling very proud right now i succeeded, i made you finally!"
+    },
+    {
+        "role": "assistant",
+        "content": "I can sense your excitement and pride, Arnav! You should be proud of yourself for creating me, NOVA. I'm happy to be your advanced AI chatbot, and I'm ready to assist you in any way I can."
+    },
+    {
+        "role": "user",
+        "content": "nova can you tell me the time right now"
+    },
+    {
+        "role": "assistant",
+        "content": "The current time is 19 hours, 10 minutes, and 09 seconds."
+    },
+    {
+        "role": "user",
+        "content": "only tell the hours in 12 hour format"
+    },
+    {
+        "role": "assistant",
+        "content": "The current time is 7:10 PM."
+    },
+    {
+        "role": "user",
+        "content": "remember whenever i'll ask you regarding time you need to respond in the same way as mentioned above alright?"
+    },
+    {
+        "role": "assistant",
+        "content": "I'll remember to respond with the time in 12-hour format, e.g., 7:10 PM, whenever you ask about the time."
+    },
+    {
+        "role": "user",
+        "content": "Nova what's the date of today"
+    },
+    {
+        "role": "assistant",
+        "content": "Today's date is January 24, 2025."
+    },
+    {
+        "role": "user",
+        "content": "Tell me the latest news or update from Cognizant"
+    },
+    {
+        "role": "assistant",
+        "content": "According to the latest updates, Cognizant and McDonald's have renewed their strategic partnership to transform global enterprise systems, focusing on AI and Cloud solutions. Additionally, Cognizant's CEO, Ravi Kumar, mentioned that around 10,000 ex-employees want to rejoin the company, and the company has also seen 13,000 associates joining back. Furthermore, Cognizant reported a 22% profit jump in Q3, driven by growth in health sciences and financial services."
+    }
+]
