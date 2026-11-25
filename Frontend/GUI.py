@@ -41,7 +41,7 @@ def SetMicrophoneStatus(Command):
     with open(rf"{TempDirPath}\Mic.data","w",encoding="utf-8") as file:
         file.write(Command)
 
-def GetMicrophoneStatus(Command):
+def GetMicrophoneStatus():
     with open(rf"{TempDirPath}\Mic.data","r",encoding="utf-8") as file:
         status = file.read()
     return status
@@ -50,16 +50,16 @@ def SetAssistantStatus(Command):
     with open(rf"{TempDirPath}\Status.data","w",encoding="utf-8") as file:
         file.write(Command)
 
-def GetAssistantStatus(Command):
+def GetAssistantStatus():
     with open(rf"{TempDirPath}\Status.data","r",encoding="utf-8") as file:
         status = file.read()
     return status
 
 def MicButtonInitialize():
-    SetMicrophoneStatus('True')
+    SetMicrophoneStatus('False')
 
 def MicButtonClosed():
-    SetMicrophoneStatus('False')
+    SetMicrophoneStatus('True')
 
 def GraphicsDirectoryPath(Filename):
     Path = rf"{GraphicsDirPath}\{Filename}"

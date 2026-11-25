@@ -1,1 +1,17 @@
+# Virtual environment
 venv/
+.venv/
+
+# Environment variables (contains API keys)
+.env
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Generated runtime artifacts
+Data/speech.mp3
+Data/Voice.html
+Data/*.jpg
+Data/*.png

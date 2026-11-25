@@ -65,6 +65,12 @@ def AnswerModifier(Answer):
 # Main chatbot function to handle user queries
 def ChatBot(Query):
     """ This function sends the user's query to the chatbot and returns the AI's response."""
+    if "what's your name stands for" in Query.lower() or "what does your name stand for" in Query.lower():
+        return f"My name {Assistantname} stands for (Notable Organizer and Versatile Assistant). I'm an AI Assistant chatbot."
+    
+    elif "Which AI model has been used to build you?" in Query.lower():
+        return """I built upon LLaMa 3 70B mode, which was developed by Meta. It has 70 billion parameters, making it a powerful tool for understanding
+                and generating natural language."""
 
     try:
         # Load the existing chat log from the JSON file

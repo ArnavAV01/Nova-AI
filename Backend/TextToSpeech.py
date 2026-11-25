@@ -92,4 +92,4 @@ def TextToSpeech (Text, func=lambda r=None: True):
 if __name__ == '__main__':
     while True:
         # Prompt user for input and pass it to TextToSpeech function
-        TextToSpeech(input("Enter the text: "))
+        TTS(input("Enter the text: "))

@@ -69,7 +69,7 @@ Link = f"{current_dir}/Data/Voice.html"
 
 # Set Chrome options for the WebDriver.
 chrome_option = Options()
-user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.6834.84 Safari/537.36"
+user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
 chrome_option.add_argument(f"user-agent={user_agent}")
 chrome_option.add_argument("--use-fake-ui-for-media-stream")
 chrome_option.add_argument("--use-fake-device-for-media-stream")
